@@ -120,7 +120,7 @@ def main():
         print("NO CURRENT INVENTORY")
     while True:
         menuOptions()
-        userMenuChoice = input('Enter a menu choice:')
+        userMenuChoice = input('Enter a menu choice: ')
 
         if userMenuChoice == '1':
             addVehicle(databaseName, currentInventory)
